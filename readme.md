@@ -1,4 +1,5 @@
 # PicturePulse
+<h3>Team Project</h3>
 
 <h3><a href="https://pic-pulse.fly.dev/docs#/" style="font-size:30 px">Visit PicturePulse API</a></h3>
 
