@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "photoshare"
+version = "0.1.0"
+description = ""
+authors = ["MartynyukAndriy <andriy.martynyuk.if@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.96.0"}
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+sqlalchemy = "^2.0.15"
+fastapi-limiter = "^0.1.5"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+cloudinary = "^1.33.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+redis = "^4.5.5"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.6"
+fastapi-mail = "^1.2.8"
+psycopg2 = "^2.9.6"
+alembic = "^1.11.1"
+pytest = "^7.3.2"
+pytest-asyncio = "^0.21.0"
+pytest-cov = "^4.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
